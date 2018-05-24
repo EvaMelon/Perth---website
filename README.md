@@ -1,2 +1,2 @@
-# Perth---website
-Website created on the basis of a template
+# perth-website
+Website created on the basis of a PSD template.
