@@ -6,8 +6,8 @@ p {
 }
 
 .front-section {
-
-    background-image: url("./iphone.png"), url("./blue-wallpaper.png"); /*2tapety*/
+    background-color:#65C0E5;
+    background-image: url("./images/iphone.png"), url("./images/blue-wallpaper.png"); /*2tapety*/
     background-position: 230px bottom, top left;
     background-repeat: no-repeat;
     color:white;
@@ -46,7 +46,7 @@ nav span {
     background-color:#F4F4F4;
     color: #545454;
     height:650px;
-    background-image:url("./ipod.png");
+    background-image:url("./images/ipod.png");
     background-repeat: no-repeat;
     background-position: bottom right;
     padding-right:550px;
@@ -82,7 +82,7 @@ nav span {
     text-align:left;
     padding-left:700px;
     padding-right:170px;
-    background-image:url("./devices.png");
+    background-image:url("./images/devices.png");
     background-repeat: no-repeat;
     background-position: bottom left;
 }
@@ -121,7 +121,7 @@ nav span {
 }
 
 .question-section {
-    background-image: url("./green-wallpaper.png");
+    background-image: url("./images/green-wallpaper.png");
     color:white;
     text-align: center;
     height:325px;
@@ -156,7 +156,7 @@ nav span {
 }
 
 .envelope-blue {
-    background-image: url("./envelope-blue.png");
+    background-image: url("./images/envelope-blue.png");
     background-repeat: no-repeat;
     text-indent: -9999px;  /*chowa text z submita*/
     border:none;
