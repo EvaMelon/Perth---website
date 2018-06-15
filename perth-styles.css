@@ -1,27 +1,34 @@
 html,
-body,
-p {
+body {
     margin:0;
     padding:0;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
 }
 
 .front-section {
     background-color: #65C0E5;
     background-image: url("./images/iphone.png"), url("./images/blue-wallpaper.png"); 
-    background-position: 230px bottom, top left;
+    background-position: 250px bottom, top left;
     background-repeat: no-repeat;
     color: white;
     text-align: right;
-    padding: 0 60px 0 20px;
+    padding: 0 30px 0 20px;
     height: 650px;
+}
+
+.menu {
+    position: absolute;
+    top: 38px;
+    right: 31px;
 }
 
 .front-section h1 {
     font-style: italic;
-    font-size: 45px;
-    font-family: "Black Jack Regular", cursive;
-    padding-top: 160px;
-    padding-bottom: 20px;
+    font-size: 70px;
+    font-family: 'Satisfy', cursive;
+    padding-top: 36px;
+    padding-bottom: 12px;
 }
 
 nav span {
@@ -30,9 +37,9 @@ nav span {
 }
 
 #description-top {
-    padding-bottom: 40px;
-    font-size: 25px;
-    font-family: "ProximaNova Light",sans-serif;
+    padding-bottom: 61px;
+    font-size: 34px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .front-section strong {
@@ -51,53 +58,60 @@ nav span {
 
 .longwinedHeader-section header {
     font-size: 40px;
-    padding: 145px 0 35px 155px;
+    padding: 130px 0 35px 155px;
 }
 
 .longwinedHeader-article1 {
-    padding-left: 155px;
-    padding-bottom: 25px;
+    padding-left: 181px;
+    padding-bottom: 22px;
     color: #A9A9A9;
+    font-size:18px;
+    margin-right: -204px;
 }
 
 .longwinedHeader-article2 {
-    margin-left: 155px;
+    margin-left: 181px;
     font-style: italic;
     border-left: 5px solid #53ADDB;
     padding-left: 10px;
-    margin-bottom: 65px;
+    margin-bottom: 94px;
     color: #A9A9A9;
 }
 
 .hello-button {
-    margin-left: 155px;
+    margin-left: 181px;
     color: #24AE8F;
 }
 
 .dog-section {
     height: 650px;
-    text-align:l eft;
-    padding-left: 700px;
+    text-align:left;
+    padding-left: 724px;
     padding-right: 170px;
     background-image: url("./images/devices.png");
     background-repeat: no-repeat;
-    background-position: bottom left;
+    background-position: bottom left 21px;
 }
 
 .dog-text1 {
     font-weight: bold;
-    padding-bottom: 30px;
+    padding-bottom: 27px;
+    margin-right: -72px;
+    line-height: 1.5;
 }
 
 .dog-text2 {
-    padding-bottom: 60px;
+    padding-bottom: 76px;
+    line-height: 1.5;
+    margin-right: -80px;
 }
 
 .dog-section header {
     padding-top: 100px;
-    padding-bottom: 45px;
+    padding-bottom: 35px;
     font-size: 40px;
     color: #7E7E7E;
+    margin-right: -27px;
 }
 
 .dribbble-button {
@@ -108,7 +122,7 @@ nav span {
     border-radius: 3px;
     text-transform: uppercase;
     border: 2px solid;
-    padding: 15px 25px;
+    padding: 17px 25px;
     text-decoration: none;
 }
 
@@ -131,8 +145,8 @@ nav span {
 
 .question-section header {
     font-size: 40px;
-    padding-top: 100px;
-    padding-bottom: 60px;
+    padding-top: 94px;
+    padding-bottom: 57px;
 }
 
 .newsletter-section {
@@ -148,7 +162,7 @@ nav span {
 .newsletter-box {
     border:1px solid white;
     border-radius: 5px 0 0 5px;
-    padding: 4px;
+    padding: 15px;
     width: 160px;
 }
 
@@ -158,9 +172,9 @@ nav span {
     text-indent: -9999px;
     border: none;
     border-radius: 0 5px 5px 0;
-    padding: 5px;
+    padding: 15px;
     padding-left: 15px;
-    background-position: left 5px;
+    background-position: left 13px;
  }
 
 .newsletter-text input::placeholder {
@@ -175,13 +189,14 @@ nav span {
 }
 
 .newsletter-text {
-    padding-top: 60px;
+    padding-top: 46px;
     display: flex;
     justify-content: center;
 }
 
 .newsletter-text span {
     padding-right: 5px;
+    padding-top: 14px;
 }
 
 .bottom-section {
@@ -219,6 +234,7 @@ nav span {
     border-radius: 50%;
     margin-right: 30px;
     display: block;
+    padding:9px;
 }
 
 .newsletter-section img {
@@ -228,17 +244,14 @@ nav span {
 .newsletter-section ul {
     display: flex;
     justify-content: center;
+    padding-top: 241px;
+    padding-bottom: 21px;
 }
 
 .newsletter-text form::after {
     content: "|";
     color: #e9e9e9;
     position: absolute;
-    right:150px;/*doesn't work*/
-}
-
-.newsletter-section ul {
-    padding-top: 235px;
 }
 
 .to-top-button {
