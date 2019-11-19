@@ -1,0 +1,260 @@
+html,
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+}
+
+.front-section {
+    background-color: #65C0E5;
+    background-image: url("./images/iphone.png"), url("./images/blue-wallpaper.png"); 
+    background-position: 250px bottom, top left;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: right;
+    padding: 0 30px 0 20px;
+    height: 650px;
+}
+
+.menu {
+    position: absolute;
+    top: 38px;
+    right: 31px;
+}
+
+.front-section h1 {
+    font-style: italic;
+    font-size: 70px;
+    font-family: 'Satisfy', cursive;
+    padding-top: 36px;
+    padding-bottom: 12px;
+}
+
+nav span {
+    border-top: 1px solid white;
+    border-radius: 3px;
+}
+
+#description-top {
+    padding-bottom: 61px;
+    font-size: 34px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.front-section strong {
+    font-style: italic;
+}
+
+.longwinedHeader-section {
+    background-color: #F4F4F4;
+    color: #545454;
+    height: 650px;
+    background-image: url("./images/ipod.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding-right: 550px;
+}
+
+.longwinedHeader-section header {
+    font-size: 40px;
+    padding: 130px 0 35px 155px;
+}
+
+.longwinedHeader-article1 {
+    padding-left: 181px;
+    padding-bottom: 22px;
+    color: #A9A9A9;
+    font-size:18px;
+    margin-right: -204px;
+}
+
+.longwinedHeader-article2 {
+    margin-left: 181px;
+    font-style: italic;
+    border-left: 5px solid #53ADDB;
+    padding-left: 10px;
+    margin-bottom: 94px;
+    color: #A9A9A9;
+}
+
+.hello-button {
+    margin-left: 181px;
+    color: #24AE8F;
+}
+
+.dog-section {
+    height: 650px;
+    text-align:left;
+    padding-left: 724px;
+    padding-right: 170px;
+    background-image: url("./images/devices.png");
+    background-repeat: no-repeat;
+    background-position: bottom left 21px;
+}
+
+.dog-text1 {
+    font-weight: bold;
+    padding-bottom: 27px;
+    margin-right: -72px;
+    line-height: 1.5;
+}
+
+.dog-text2 {
+    padding-bottom: 76px;
+    line-height: 1.5;
+    margin-right: -80px;
+}
+
+.dog-section header {
+    padding-top: 100px;
+    padding-bottom: 35px;
+    font-size: 40px;
+    color: #7E7E7E;
+    margin-right: -27px;
+}
+
+.dribbble-button {
+    color: #E84F89;
+}
+
+.button {
+    border-radius: 3px;
+    text-transform: uppercase;
+    border: 2px solid;
+    padding: 17px 25px;
+    text-decoration: none;
+}
+
+.download-button,
+.beer-button {
+    color: white;
+}
+
+.question-section {
+    background-image: url("./images/green-wallpaper.png");
+    color: white;
+    text-align: center;
+    height: 325px;
+}
+
+.question-section strong {
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.question-section header {
+    font-size: 40px;
+    padding-top: 94px;
+    padding-bottom: 57px;
+}
+
+.newsletter-section {
+    background-color: #F4F4F4;
+    height: 650px;
+    position: relative;
+}
+
+.newsletter-section form {
+    display: inline-block;
+}
+
+.newsletter-box {
+    border:1px solid white;
+    border-radius: 5px 0 0 5px;
+    padding: 15px;
+    width: 160px;
+}
+
+.envelope-blue {
+    background-image: url("./images/envelope-blue.png");
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding: 15px;
+    padding-left: 15px;
+    background-position: left 13px;
+ }
+
+.newsletter-text input::placeholder {
+    font-style: italic;
+    color: #D6D6D6;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #D6D6D6;
+    font-style: italic;
+}
+
+.newsletter-text {
+    padding-top: 46px;
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter-text span {
+    padding-right: 5px;
+    padding-top: 14px;
+}
+
+.bottom-section {
+    text-align: center;
+    height: 100px;
+    font-size: 12px;
+    color: #7C7C7C;
+}
+
+.bottom-section span {
+    color: #81CAEA;
+}
+
+.info-bottom {
+    padding-top: 45px;
+}
+
+.logo-box {
+    display: block;
+    padding-left: 160px;
+}
+
+.icon {
+    padding-left: 5px;
+}
+
+.bottom-icon {
+    padding: 10px;
+    width: 15px;
+    height: 15px;
+}
+
+.newsletter-section a {
+    border: 2px solid #545454;
+    border-radius: 50%;
+    margin-right: 30px;
+    display: block;
+    padding:9px;
+}
+
+.newsletter-section img {
+    display: block;
+}
+
+.newsletter-section ul {
+    display: flex;
+    justify-content: center;
+    padding-top: 241px;
+    padding-bottom: 21px;
+}
+
+.newsletter-text form::after {
+    content: "|";
+    color: #e9e9e9;
+    position: absolute;
+}
+
+.to-top-button {
+    display: block;
+    padding-left: 1155px;
+}
